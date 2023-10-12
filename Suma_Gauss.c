@@ -7,7 +7,8 @@ int s;
 
 int main(){
 
-printf("Ingrese un número");
+printf("Bienvenido a continuación");
+printf("Ingrese un número: ");
 scanf("%d",&num);
 
 if (num<1)
@@ -23,5 +24,4 @@ else{
 }
 
 printf("Su sumatoria de Gauss es %d", s);
-
 }
